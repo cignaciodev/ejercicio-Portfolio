@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+*{box-sizing: border-box; margin: 0;padding: 0;}
+header{width: 100%;background-color: #ffffff;position: fixed;}
+/*Contenedores*/
+.container{max-width:1240px; margin: 0 auto;}
+.container-sobre, .container-servicios,.container-datos, .container-resumen,.container-info,.container-experiencia{display: flex;}
+/*Barra de navegacion*/
+.nav-bar{display: flex;align-items: center;max-width: 1240px;margin: 0 auto;background-color: #ffffff;}
+.nav-bar img{width: 30px;} .nav-bar h3{width: 200px;}
+.navegacion{width: 840px;display: flex;justify-content: center;}
+.navegacion a, .redes a{padding-left: 10px;text-decoration: none;color: black;}
+.redes{width: 200px;display: flex;justify-content: flex-end;}
+.btn-hamburgesa, .btn-cerrar{display: none; background-color: transparent;border: none;cursor: pointer;}
+.btn-oscuro{background-color: transparent;border: none;cursor: pointer;}
+.menu-hamburgesa, .btn-cerrar{display: none;}
+.lista-menu li{text-decoration: none;}
+/*Seccion presentacion*/
+.presentacion{padding-bottom: 9px;padding-top: 99px;}
+.container-info{justify-content: center; align-items: center;flex-wrap: wrap;}
+.encabezado{width: 620px;display: flex;align-items: center;}
+.info h2{padding-bottom: 8px; font-weight: 400;font-size: 2em;}
+.info h1{font-weight: 700;font-size: 3em;}
+.info div{margin-top: 20px;}
+.info div a{padding-left: 10px;}
+.button{background-color: #111418;padding: 10px 10px;text-decoration: none;color: white;}
+.imagen-personal{display: flex;justify-content: center;align-items: center;width: 620px;}
+.imagen{width: 500px;height: 500px;border-radius: 100%;border: 10px solid #ffff;}
+.flecha-abajo{display: flex;width:70px;height: 50px;justify-content: center;margin: auto; align-content: flex-end;}
+/*Seccion sobre mi*/
+.sobre-mi,.presentacion, .servicios, .resumen,.columna1{width: 100%;}
+.sobre-mi{padding-top: 72px;padding-bottom: 112px;background-color: #ffffff;}
+.container-sobre{padding-top: 50px;}
+/*Propiedades repetidas*/
+.servicios,.proyectos{background-color: #f8f9fa;}
+.cabecera{width: 100px;margin: auto; padding: 5px;text-align: center;margin-bottom: 20px;}
+.titulo{text-align: center;padding-bottom: 30px;}
+.presentacion,.cabecera,.estimar-proyecto{background-color: #f5df4e;}
+/*Seccion sobre mi*/
+.container-datos div{width: 310px;padding-top: 20px;}
+.circulo{border-radius: 50%;background-color: #e7d249; height: auto;}
+.circulo h1{font-size: 3em;}
+.año-experiencia{display: flex;flex-direction: column;text-align: center;}
+/*Seccion servicios*/
+.servicios{padding-top: 129px;padding-bottom: 129px;}
+.container-servicios div{width: 413px;}
+.container-servicios{flex-wrap: wrap;}
+.servicio-n{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.imagen-servicio{width:120px;height:120px;color: #e7d249;}
+/*Seccion resumen*/
+.resumen{padding-top: 50px;padding-bottom: 60px;}
+.info-resumen{display: flex;flex-direction: column; padding-right: 10px;}
+.info-resumen h1, .container-experiencia h1{padding-bottom: 10px;}
+.container-experiencia{flex-direction: column;}
+.resumen,.container-experiencia,.info-resumen,.conocimientos{background-color: #ffffff;}
+.educacion,.experiencia{border-left:2px solid #e7d249; padding-left: 8px;}
+.boton-cv button{background-color: #111418;color: white;padding: 10px 10px;cursor: pointer;}
+/*Conocimientos*/
+.conocimientos{padding-top: 25px;}
+.columna-basicos, .columna-frameworks {width: 620px;}
+.encabezado-columna{display: flex;}
+.columna-basicos,.columna-frameworks{display: flex;flex-direction: column;}
+.columna-frameworks{margin-left: 15px;}
+.boton-cv{display: flex;justify-content: center;margin-top: 50px;}
+.container-habilidades{background-color: #f8f9fa;border-radius: 5px; width: 100%;}
+.habilidades{border-radius: 5px;padding-top: 5px;}
+.web{width: 50%;background-color: #e7d249;}
+.html-css{width: 80%;background-color: #e7d249;}    
+.js{width: 60%;background-color: #e7d249;}
+.react{width:10%;background-color: #e7d249;}
+.angular{width: 50%;background-color: #e7d249;}
+.bootstrap{width: 30%;background-color: #e7d249;}
+/*Seccion proyectos*/
+.proyectos{padding-top: 65px;padding-bottom: 95px;}
+.nav-proyectos{display: flex; align-items: center; justify-content: center;}
+.nav-proyectos a{text-decoration: none; padding-left: 10px;color: black;}
+.container-proyectos{display: flex;flex-wrap: wrap; padding-top: 45px;justify-content: space-around;}
+.container-proyectos img{width: 413.3px;height: auto;padding-left: 11px;}
+/*Seccion contacto*/
+.contacto{background-image: url(../assets/img/net.jpg); background-size: cover; width: 100%; height: 300px; background-repeat: no-repeat;background-position: center;padding-top: 30px;}
+.contacto div{display: flex;justify-content: center;align-items: center; padding-top: 70px;}
+.contacto p{text-align: center;padding: 10px; width: 200px;margin: auto;background-color: #e7d249; margin-top: 16px;}
+.contacto p a{text-decoration: none;color: black;}
+/*Seccion preguntas*/
+.preguntas{padding-top: 95px;padding-bottom: 100px;}
+.container h1{padding-bottom: 40px;}
+.faq{background-color: #e7d249;padding: 5px;width:50px;}
+.container-preguntas{display: flex;}
+.container-preguntas div h3{padding-bottom: 5px;}
+.imagen-foco{width: 500px;height: auto; margin-top: 32px;}
+/*Seccion clientes*/
+.clientes{background-color: #939597;padding-top: 105px;padding-bottom: 85px;}
+.cabecera-clientes{width: 200px;margin: auto; padding: 5px;text-align: center;margin-bottom: 20px;background-color: #f5df4e;}
+.experiencia-clientes,.info-cliente{display: flex; justify-content: center;align-items: center;flex-direction: column;padding-top: 30px;}
+.testimonio{padding: 0px 80px;}
+.imagen-cliente{width:50px;height: 50px;border-radius: 150px;}
+/*Seccion estimar proyecto*/
+.estimar-proyecto{padding-top: 100px;padding-bottom: 100px;}
+.container-estimacion{display: flex;}
+.columna-contacto{padding-right: 60px;width: 620px;}
+.redes-sociales img{width: 30px;height: 20px; padding-right: 10px;}
+.redes-sociales{display: flex;}
+.columa-formulario{width: 620px;}
+.columna-contacto p{padding-bottom: 30px; width: 400px;}
+form label, input, button ,textarea{display: block;}
+form button{margin-top: 15px; padding: 10px 30px;background-color: #111418;color:white;cursor: pointer;}
+form label{margin-top: 10px;}
+textarea{width: 100%; outline: none;border: none;border-bottom: 2px solid #dfcb47;background-color: #f5df4e;margin-top: 20px;}
+input[type="text"],[type="email"]{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #dfcb47;
+    margin-top: 20px;
+    background-color: #f5df4e;
+    width: 100%;
+}
+/*Footer*/
+footer{background-color: #111418;padding-top: 52px;padding-bottom: 47px;}
+.container-footer{display: flex;width: 100%;}
+.copyright{display: flex;justify-content: flex-start; width: 620px;}
+.diseñado{display: flex;justify-content: flex-end;width: 620px;}
+.copyright p, .diseñado p{color: white;}
+.copyright p span,.diseñado p span{color: #dfcb47;text-decoration: underline #dfcb47;}
+/*Tablet*/
+@media (max-width:786px){
+    .container{max-width: 674px;}
+    .navegacion{display: none;}
+    .nav-bar h3{padding-left: 48px;}
+    .redes{padding-left: 517px;}
+    .encabezado{align-items: center; text-align: center;}
+    .container-info div{width: 393px;padding-top: 1.375rem;}
+    .container-info,.container-preguntas{flex-direction: column-reverse;}
+    .container-sobre ,.container.datos,.container-resumen,.container-estimacion,.container-footer{flex-direction: column;}
+    .container-datos{flex-wrap: wrap;}
+    .container-datos div{width: 337px;padding-top: 25px;}
+    .container-servicios div{width: 337px; padding-left: 20px;}
+    .educacion{padding-left: 10px;}
+    .container-experiencia h1{padding-top: 30px;}
+    .conocimientos h2{padding-top: 30px;}
+    .imagen-personal{justify-content: center;margin-top: 93px;}
+    .imagen{width: 421px;height: 416px; border-radius: 100%;}
+    .container-info .encabezado{padding-top: 10px;}
+    .columna-contacto{display: flex;flex-direction: column;align-items: center;width: 647px;}
+    .columna-contacto p{text-align: center;}
+    .columna-formulario{width: 647px; padding-top: 30px;}
+    .columna-formulario h1{text-align: center;}
+    .columna-formulario button{margin: auto;margin-top: 20px;}
+    .container-proyectos img{width: 337px;height: auto;}
+    .container-preguntas h1{text-align: center;}
+    .faq{margin: auto;}
+    .copyright, .diseñado,.foco{display: flex;justify-content: center;align-items: center; padding-top: 5px;}
+    .año-experiencia{align-items: center;margin-top:25px;}
+    .circulo{width: 100px;}
+    .flecha-abajo{padding-top: 15px;}
+    .btn-hamburgesa{display:block;}
+    .menu-hamburgesa{height: 215px;}
+    .lista-menu{list-style: none;text-align: center;width: 100%;display: none;flex-direction: column;justify-content: center;position: relative;}
+    .lista-menu li{flex-grow: 1;align-self: center;padding-top: 10px;}
+    .lista-menu li a{text-decoration: none;color: black;}
+}
+/*Smartphone*/
+@media (max-width:320px){
+    .container{max-width: 320px;}
+    .presentacion,.sobre-mi,.servicios,.resumen,.proyectos,.contacto,.clientes,.estimar-proyecto,.container-preguntas,
+    footer{width: 648px;}
+    .container-datos,.encabezado-columna{flex-wrap: wrap;}
+    .container-datos div{width: 159px;}
+    .container-servicios{justify-content: center;}
+    .columna-basicos div{width: 320px;}
+    .columna-frameworks{width: 320px;margin-left: 0;}
+    .container-proyectos img{width: 640px;height: 573px;}
+    .container-preguntas div{width: 630px;padding: 0 20px;}
+    .container-preguntas{width: 640px;}
+    .testimonio{width: 300px;}
+    .container-estimacion{width: 648px;}
+    .columna-contacto{width: 420px;}
+    .columna-formulario{width: 328px;}
+    .container-footer{width: 360px;flex-direction: column;align-items: center;}
+    .copyright{width: 500px;}
+    .container-footer div{width: 445px;}
+    .año-experiencia{align-items: center;}
+    .circulo{width: 50px;height: 66px;}
+}
+.modo-oscuro{background-color: #111418; color: white;}
